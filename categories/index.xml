@@ -5,6 +5,7 @@
     <link>https://valentino-sm.github.io/categories/</link>
     <description>Recent content in Categories on valentino-sm</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://valentino-sm.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <atom:link href="https://valentino-sm.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
