@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <script type="text/javascript">
+    function getQueryString() {
+      return window.location.search;
+    }
+    var newLocation =
+      "https://api.rc.sellmethispen.ai/auth/microsoft/redirect" +
+      getQueryString();
+    window.location.href = newLocation;
+  </script>
+  <title>Page Redirection</title>
+</head>
+
+<body>
+  <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
+  If you are not redirected automatically, follow this
+  <a href="#" id="redirectLink">link to example</a>.
+  <script type="text/javascript">
+    document.getElementById("redirectLink").href = newLocation;
+  </script>
+</body>
+
+</html>
